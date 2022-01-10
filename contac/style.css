@@ -140,17 +140,21 @@
     font-size: 18px;
 }
 
-@media (max-width:641px){
-    body{
-        font-size: 12px;
+@media (max-width:991px){
+    .contact{
+        padding: 50px;
     }
 
-    .main-content h2{
-        font-size: 0.8em;
+    .container{
+        flex-direction: column;
     }
 
-    .main-content h3{
-        font-size: 1.4em;
+    .container .contactinfo{
+        margin-bottom: 40px;
+    }
+    .container .contactinfo,
+    .contactform{
+        width: 100%;
     }
 }
 
