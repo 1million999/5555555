@@ -1,15 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
-    <title>Sufei Shop</title>
-</head>
-<body>
+<html lang="pt-br">
 
+<head>
+
+    
+    <meta charset="UTF-8">
+    <title>Floating WhatsApp Button Demo</title>
+    <script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="floating-wpp.css">
+    <script type="text/javascript" src="floating-wpp.js"></script>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif
+        }
+    </style>
+</head>
+
+<body>
     <header>
         <a href="#" class="logo">Sufei Shop</a>
         <nav class="navigation">
@@ -184,5 +192,24 @@
         </div>
     </footer>
 
+
+    <div id="myButton"></div>
 </body>
+
+<script type="text/javascript">
+    $(function () {
+        $('#myButton').floatingWhatsApp({
+            phone: 'https://wa.me/+212643577894',
+            popupMessage: 'free fire ',
+            message: "orange code : ",
+            showPopup: true,
+            showOnIE: false,
+            headerTitle: 'Welcome!',
+            headerColor: '#25d366',
+            backgroundColor: '#25d366',
+            buttonImage: '<img src="whatsapp.svg" />'
+        });
+    });
+</script>
+
 </html>
