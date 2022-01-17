@@ -64,18 +64,33 @@ section {
 .main h2 span {
     display: inline-block;
     margin-top: 10px;
-    color: #4e9eff;
+    color: #664cf1;
     font-size: 1.8em;
     font-weight: 600;
+    background-color: #1a1a1d;
+    border-radius: 65px;
+    padding: 0px 21px;
+    transition: 0.5s;
 }
+
+.main h2 span:hover {
+    color: #66fcf1;
+    background-color: #272727;
+}
+
 
 .main h3 {
     color: #fff;
     font-size: 1.5em;
     font-weight: 700;
     letter-spacing: 1px;
-    margin-top: 10px;
+    margin-top: 16px;
     margin-bottom: 30px;
+    background-color: #f0f0f0;
+    border-radius: 65px;
+    padding: 7px 21px;
+    text-align: center;
+    margin-right: 240px;
 }
 
 .main-btn {
