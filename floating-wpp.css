@@ -64,15 +64,26 @@ section {
 .main h2 span {
     display: inline-block;
     margin-top: 10px;
-    color: #664cf1;
+    color: rgb(58, 108, 244);
     font-size: 1.8em;
     font-weight: 600;
-    background-color: #1a1a1d;
+    background-color: #f0f0f0;
     border-radius: 65px;
     padding: 0px 21px;
     transition: 0.5s;
 }
 
+#sufei-shop {
+    color: #3a6cf4;
+    background-color: #f0f0f0;
+    margin-bottom: 10px;
+    font-size: 35px;
+    transition: 0.5s;
+}
+#sufei-shop:hover {
+    color: #601cfc;
+    font-size: 43px;
+}
 .main h2 span:hover {
     color: #66fcf1;
     background-color: #272727;
